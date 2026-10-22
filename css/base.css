@@ -1,0 +1,13 @@
+body{
+    /*forest picture goes here
+    background-image: ;*/
+}
+img{
+    max-width: 800px;
+    width: 90%;
+    height: auto;
+}
+
+.links{
+    border: 3px solid burlywood;
+}
