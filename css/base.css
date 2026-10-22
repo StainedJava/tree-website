@@ -9,5 +9,18 @@ img{
 }
 
 .links{
+    padding-left: 10px;
     border: 3px solid burlywood;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 13vw;
+    min-width: 100px;
+}
+
+.link{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
 }
