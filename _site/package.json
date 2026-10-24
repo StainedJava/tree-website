@@ -14,6 +14,7 @@
     "tree": "serve ../tree-website"
   },
   "dependencies": {
+    "@11ty/eleventy": "^3.1.7",
     "express": "^5.2.1"
   }
 }
