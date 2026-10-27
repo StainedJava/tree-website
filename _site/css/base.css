@@ -1,9 +1,8 @@
 body{
     /*forest picture goes here
     background-image: ;*/
-    display: inline;
 }
-img{
+aside img{
     max-width: 100px;
     width: 90%;
     height: auto;
@@ -41,3 +40,26 @@ h3{
     margin-bottom: 0px;
     margin-top: 10px;
 }
+
+.fact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    align-items: center;
+    margin: 20px;
+}
+
+img{
+    max-width: 400px;
+    width: 30%;
+    height: 30%;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
