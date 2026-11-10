@@ -34,4 +34,11 @@ a:visited{
 
 img{
     border-color: #575e3f;
+
+}
+
+header{
+    margin-bottom: 0px;
+    border-bottom: none;
+    background-color: #96b33c;
 }
