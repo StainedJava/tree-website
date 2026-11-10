@@ -5,7 +5,7 @@ body{
     background-position: 3px;
     margin: 0px 0px 0px 0px;
     z-index: -1;
-    
+    position: sticky;
 }
 
 .container{
@@ -17,4 +17,21 @@ body{
     width: 50vw;
     min-width: 100px;
     margin-left: 25vw;
+}
+
+main{
+    background-color: #96b33c;
+
+}
+
+a{
+    color: #5A3CB3;
+}
+
+a:visited{
+    color: #B33C5A;
+}
+
+img{
+    border-color: #575e3f;
 }
