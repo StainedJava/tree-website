@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-            <h1>Birch</h1>
+            <h1 id="title"></h1>
         </header>
         <main>
             <div class="links">
@@ -20,16 +20,23 @@
             </div>
             <div class="fact">
                 <h3>Pioneers</h3>
-                <p>
-                    Birch trees (family name: Betulaceae) have the special title of being a pioneer species. Pioneer 
+                <p id="desc">
+                </p>
+            </div>
+            <img src="../images/Birch.jpg">
+            <script type="module">
+                import * as utils from "../js/utils.js";
+                const desc = `Birch trees (family name: Betulaceae) have the special title of being a pioneer species. Pioneer 
                     species are organisms that grow despite the adversity of barren environments that are scarred form 
                     disasters like volcano eruptions, mudslides, or one of the many man-made environment destroyers. 
                     Birch trees like many other trees need moist soil to grow, however unlike other trees it is tolerant 
                     to acidic soil. This makes it easier to grow in places with low pH precipitation, preparing the 
-                    environment for species that can't handle more extreme conditions.
-                </p>
-            </div>
-            <img src="../images/Birch.jpg">
+                    environment for species that can't handle more extreme conditions.`;
+
+                const birch = utils.makeTree("Birch", desc, "5.0 - 7.0", 4, 4, "20 - 130 years");
+                document.getElementById("desc").textContent = birch.desc;
+                document.getElementById("title").textContent = birch.name;
+            </script>
         </main>
     </body>
 </html>

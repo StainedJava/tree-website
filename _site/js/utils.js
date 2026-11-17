@@ -1,11 +1,15 @@
-export var infoTree = function printTree(name, desc, water, light, soil, age){
-    this.name = name;
-    this.desc = desc;
-    this.water = water;
-    this.light = lux[light];
-    this.soil = dirt[soil];
-    this.age = Number(age);
-
+export function makeTree(name, desc, water, light, soil, age){
     const dirt = ["Bone Dry", "Dry", "Moderate", "Moist", "Wet", "Saturated"]
     const lux = ["Low", "Medium", "Indirect Sunlight", "Direct Sunlight"]
+
+    const infoTree = {
+        name: name,
+        desc: desc,
+        water: water,
+        light: lux[light],
+        soil: dirt[soil],
+        age: age
+    }
+
+    return infoTree;
 }
